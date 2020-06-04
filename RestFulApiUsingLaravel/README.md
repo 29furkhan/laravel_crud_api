@@ -2,7 +2,7 @@ Clone The Project With:
 composer install
 
 If you face errors in Above Command use;
-composer install
+composer update
 
 Migrate Database:
 php artisan migrate

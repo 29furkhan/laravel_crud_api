@@ -1,3 +1,33 @@
+Clone The Project With:
+composer install
+
+If you face errors in Above Command use;
+composer install
+
+Migrate Database:
+php artisan migrate
+
+Add Dummy Data:
+php artisan db:seed
+
+Get Application Key:
+php artisan key:generate
+
+Now Run Application:
+php artisan serve
+
+GET ALL ARTICLES:
+GET api/articles
+
+GET SINGLE ARTICLE:
+GET api/article/{id}
+
+DELETE ARTICLE
+DELETE api/article/{id}
+ 
+More API Links Can be Checked in ArticleController or api.php
+
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
